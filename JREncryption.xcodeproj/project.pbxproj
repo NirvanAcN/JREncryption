@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0446E81F3CEB5E00E11F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0446E71F3CEB5E00E11F94 /* main.m */; };
+		2B0446EB1F3CEB5E00E11F94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0446EA1F3CEB5E00E11F94 /* AppDelegate.m */; };
+		2B0446EE1F3CEB5E00E11F94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0446ED1F3CEB5E00E11F94 /* ViewController.m */; };
+		2B0446F11F3CEB5E00E11F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0446EF1F3CEB5E00E11F94 /* Main.storyboard */; };
+		2B0446F31F3CEB5E00E11F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0446F21F3CEB5E00E11F94 /* Assets.xcassets */; };
+		2B0446F61F3CEB5E00E11F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0446F41F3CEB5E00E11F94 /* LaunchScreen.storyboard */; };
+		2B0447011F3CEB5E00E11F94 /* JREncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0447001F3CEB5E00E11F94 /* JREncryptionTests.m */; };
+		2B04470E1F3CEBAC00E11F94 /* NSString+HOMECategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B04470D1F3CEBAC00E11F94 /* NSString+HOMECategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B0446FD1F3CEB5E00E11F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0446DB1F3CEB5E00E11F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0446E21F3CEB5E00E11F94;
+			remoteInfo = JREncryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0446E31F3CEB5E00E11F94 /* JREncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JREncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0446E71F3CEB5E00E11F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B0446E91F3CEB5E00E11F94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B0446EA1F3CEB5E00E11F94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B0446EC1F3CEB5E00E11F94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B0446ED1F3CEB5E00E11F94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B0446F01F3CEB5E00E11F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B0446F21F3CEB5E00E11F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B0446F51F3CEB5E00E11F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B0446F71F3CEB5E00E11F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0446FC1F3CEB5E00E11F94 /* JREncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JREncryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0447001F3CEB5E00E11F94 /* JREncryptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JREncryptionTests.m; sourceTree = "<group>"; };
+		2B0447021F3CEB5E00E11F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B04470C1F3CEBAC00E11F94 /* NSString+HOMECategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HOMECategory.h"; sourceTree = "<group>"; };
+		2B04470D1F3CEBAC00E11F94 /* NSString+HOMECategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HOMECategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0446E01F3CEB5E00E11F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0446F91F3CEB5E00E11F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0446DA1F3CEB5E00E11F94 = {
+			isa = PBXGroup;
+			children = (
+				2B04470B1F3CEB7400E11F94 /* Needed */,
+				2B0446E51F3CEB5E00E11F94 /* JREncryption */,
+				2B0446FF1F3CEB5E00E11F94 /* JREncryptionTests */,
+				2B0446E41F3CEB5E00E11F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0446E41F3CEB5E00E11F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0446E31F3CEB5E00E11F94 /* JREncryption.app */,
+				2B0446FC1F3CEB5E00E11F94 /* JREncryptionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0446E51F3CEB5E00E11F94 /* JREncryption */ = {
+			isa = PBXGroup;
+			children = (
+				2B0446E91F3CEB5E00E11F94 /* AppDelegate.h */,
+				2B0446EA1F3CEB5E00E11F94 /* AppDelegate.m */,
+				2B0446EC1F3CEB5E00E11F94 /* ViewController.h */,
+				2B0446ED1F3CEB5E00E11F94 /* ViewController.m */,
+				2B0446EF1F3CEB5E00E11F94 /* Main.storyboard */,
+				2B0446F21F3CEB5E00E11F94 /* Assets.xcassets */,
+				2B0446F41F3CEB5E00E11F94 /* LaunchScreen.storyboard */,
+				2B0446F71F3CEB5E00E11F94 /* Info.plist */,
+				2B0446E61F3CEB5E00E11F94 /* Supporting Files */,
+			);
+			path = JREncryption;
+			sourceTree = "<group>";
+		};
+		2B0446E61F3CEB5E00E11F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0446E71F3CEB5E00E11F94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B0446FF1F3CEB5E00E11F94 /* JREncryptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0447001F3CEB5E00E11F94 /* JREncryptionTests.m */,
+				2B0447021F3CEB5E00E11F94 /* Info.plist */,
+			);
+			path = JREncryptionTests;
+			sourceTree = "<group>";
+		};
+		2B04470B1F3CEB7400E11F94 /* Needed */ = {
+			isa = PBXGroup;
+			children = (
+				2B04470C1F3CEBAC00E11F94 /* NSString+HOMECategory.h */,
+				2B04470D1F3CEBAC00E11F94 /* NSString+HOMECategory.m */,
+			);
+			path = Needed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0446E21F3CEB5E00E11F94 /* JREncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0447051F3CEB5E00E11F94 /* Build configuration list for PBXNativeTarget "JREncryption" */;
+			buildPhases = (
+				2B0446DF1F3CEB5E00E11F94 /* Sources */,
+				2B0446E01F3CEB5E00E11F94 /* Frameworks */,
+				2B0446E11F3CEB5E00E11F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JREncryption;
+			productName = JREncryption;
+			productReference = 2B0446E31F3CEB5E00E11F94 /* JREncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0446FB1F3CEB5E00E11F94 /* JREncryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0447081F3CEB5E00E11F94 /* Build configuration list for PBXNativeTarget "JREncryptionTests" */;
+			buildPhases = (
+				2B0446F81F3CEB5E00E11F94 /* Sources */,
+				2B0446F91F3CEB5E00E11F94 /* Frameworks */,
+				2B0446FA1F3CEB5E00E11F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0446FE1F3CEB5E00E11F94 /* PBXTargetDependency */,
+			);
+			name = JREncryptionTests;
+			productName = JREncryptionTests;
+			productReference = 2B0446FC1F3CEB5E00E11F94 /* JREncryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0446DB1F3CEB5E00E11F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JingRuiWangKe;
+				TargetAttributes = {
+					2B0446E21F3CEB5E00E11F94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XEBB5N4BA;
+						ProvisioningStyle = Automatic;
+					};
+					2B0446FB1F3CEB5E00E11F94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XEBB5N4BA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B0446E21F3CEB5E00E11F94;
+					};
+				};
+			};
+			buildConfigurationList = 2B0446DE1F3CEB5E00E11F94 /* Build configuration list for PBXProject "JREncryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B0446DA1F3CEB5E00E11F94;
+			productRefGroup = 2B0446E41F3CEB5E00E11F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0446E21F3CEB5E00E11F94 /* JREncryption */,
+				2B0446FB1F3CEB5E00E11F94 /* JREncryptionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0446E11F3CEB5E00E11F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0446F61F3CEB5E00E11F94 /* LaunchScreen.storyboard in Resources */,
+				2B0446F31F3CEB5E00E11F94 /* Assets.xcassets in Resources */,
+				2B0446F11F3CEB5E00E11F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0446FA1F3CEB5E00E11F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0446DF1F3CEB5E00E11F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B04470E1F3CEBAC00E11F94 /* NSString+HOMECategory.m in Sources */,
+				2B0446EE1F3CEB5E00E11F94 /* ViewController.m in Sources */,
+				2B0446EB1F3CEB5E00E11F94 /* AppDelegate.m in Sources */,
+				2B0446E81F3CEB5E00E11F94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0446F81F3CEB5E00E11F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0447011F3CEB5E00E11F94 /* JREncryptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0446FE1F3CEB5E00E11F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0446E21F3CEB5E00E11F94 /* JREncryption */;
+			targetProxy = 2B0446FD1F3CEB5E00E11F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B0446EF1F3CEB5E00E11F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0446F01F3CEB5E00E11F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B0446F41F3CEB5E00E11F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0446F51F3CEB5E00E11F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B0447031F3CEB5E00E11F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B0447041F3CEB5E00E11F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0447061F3CEB5E00E11F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JREncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JREncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B0447071F3CEB5E00E11F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JREncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JREncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B0447091F3CEB5E00E11F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JREncryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JREncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JREncryption.app/JREncryption";
+			};
+			name = Debug;
+		};
+		2B04470A1F3CEB5E00E11F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JREncryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JREncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JREncryption.app/JREncryption";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0446DE1F3CEB5E00E11F94 /* Build configuration list for PBXProject "JREncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0447031F3CEB5E00E11F94 /* Debug */,
+				2B0447041F3CEB5E00E11F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0447051F3CEB5E00E11F94 /* Build configuration list for PBXNativeTarget "JREncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0447061F3CEB5E00E11F94 /* Debug */,
+				2B0447071F3CEB5E00E11F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B0447081F3CEB5E00E11F94 /* Build configuration list for PBXNativeTarget "JREncryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0447091F3CEB5E00E11F94 /* Debug */,
+				2B04470A1F3CEB5E00E11F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B0446DB1F3CEB5E00E11F94 /* Project object */;
+}
